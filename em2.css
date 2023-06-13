@@ -1,0 +1,92 @@
+.ears{
+    display:flex;
+    justify-content: space-evenly;
+    position:relative;
+    width:250px;
+    margin:auto;
+    margin-top: 15%;
+}
+#lear {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border :3px solid black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+#rear {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border :3px solid black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.face{
+    height:250px;
+    width:250px;
+    background-color: pink;
+    border-radius:50%;
+    margin:auto;
+    margin-top:2px;
+    position:absolute;
+    border:3px solid black;
+}
+.eyes{
+    display:flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 250px;
+    margin-top: 25%;
+}
+#leye{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+}
+#reye{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;  
+}
+#pleye,#preye{
+    height:25px;
+    width:25px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 11px;
+    margin-right:15px;
+    margin-top: 13px;;
+}
+.mouth{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    position:absolute;
+    border: 2px solid black;
+    margin-left: 30%;
+    margin-top: 55%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#ln{
+    height:25px;
+    width:25px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+#rn{
+    height:25px;
+    width:25px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 60%;
+    margin-top: -25%;
+}
